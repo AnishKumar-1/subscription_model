@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(235, 239, 243);
+    padding-top: 70px;
+}
+.NavBar{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+.NavBar a{
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+}
+.NavBar a:hover{
+    color: red;
+    
+}
